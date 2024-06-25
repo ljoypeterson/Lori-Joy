@@ -1,0 +1,47 @@
+#Simple python quiz game
+#print the welcome name
+print("Welcome to my computer quiz")
+
+#used to ask user  for input
+playing = input("Do you want to play? ")
+print("Okay! Let's play :)")
+
+#use to keep score
+score = 0
+
+#use != for not equl to yes, if yes continue game, if not yes then quit
+
+if playing.upper != "yes":
+  quit()
+    
+    print("Okay! Let's play: )")
+
+answer = input("What does CPU stand for?")
+if answer == "central processing unit":
+    print("Correct!")
+    score += 1
+    
+else:
+    print("Incorrect!")
+
+
+answer = input("What is my dog's name?")
+if answer == "Bingo":
+    print("Correct!")
+#increment each score by 1
+    score += 1
+else:
+    print("Incorrect!")
+    
+
+
+answer = input("Where is Waldo?")
+if answer == "in the world":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+#this shows how to keep track of score and print out the score and calculates percentage
+print("You got " + str(score) + "questions correct!")
+print("You got" + str(score/3  * 100 ) + "%.")
