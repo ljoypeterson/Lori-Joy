@@ -1,0 +1,12 @@
+
+name = input()
+Your_name = input("Enter your name")
+
+if name != "Lori":
+    
+    print("Wrong name")
+   
+else:
+    quit()
+   
+print(name)
