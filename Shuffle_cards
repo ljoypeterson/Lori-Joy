@@ -1,0 +1,12 @@
+#code to print random number using randint
+#can use for a guessing game
+#example is for card game
+
+import random
+
+cards = ["jack", "queen", "king"]
+random.shuffle(cards)
+
+# for each card print one line at a time
+for card in cards:
+    print(card)
