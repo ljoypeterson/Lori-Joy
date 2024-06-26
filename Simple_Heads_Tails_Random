@@ -1,0 +1,11 @@
+#code for random heads or tails using the random function
+#get access to random function using import keyword
+
+import random
+
+#square brackets define a list
+# () specify the choice function
+#coin stores the variable
+
+coin = random.choice(["heads", "tails"])
+print(coin)
