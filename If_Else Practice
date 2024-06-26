@@ -1,0 +1,9 @@
+Guess_Number =input("Give me a number")
+
+if Guess_Number == 10:
+
+    print("Wrong")
+
+else:
+    Ask_Again = input("What's the time: ")
+    print("Wrong")
