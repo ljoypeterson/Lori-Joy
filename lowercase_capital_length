@@ -1,0 +1,15 @@
+#code  to make capital sentence lower
+
+capital_sentence = input("Enter a sentence in all caps:")
+print(capital_sentence.lower())
+
+#code to make sentence upper
+enter_sentence = input("Enter a sentence in lowercase:")
+print(enter_sentence.capitalize())
+
+#code to get numbers om an object
+cars = "Ford, Chevy, Kia"
+length = len(cars)
+print(length)
+
+
