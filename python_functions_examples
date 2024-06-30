@@ -1,0 +1,25 @@
+enter_word = input("Type one word: ")
+
+if enter_word != "loo":
+    print("Get Ready!")
+    
+elif enter_word == "Bob":    
+    print("You ready?")
+    
+else:
+    print("Thanks for playing!")
+    
+my_number = int(input("enter a number:"))
+your_number = int(input("enter a number:"))
+
+
+
+print('The value is:', abs(my_number + your_number))
+
+print('The value is:', divmod(my_number, your_number))
+
+print('The hex value is:', hex(my_number))
+
+two_numbers = (my_number, your_number)
+import statistics
+print('The mean is:', statistics.mean(two_numbers))
