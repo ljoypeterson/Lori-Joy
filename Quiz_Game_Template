@@ -1,0 +1,30 @@
+print("Welcome to my computer quiz!")
+
+playing = input("Do you want to play? ")
+# using if statement to see if they want to play- if statement true or false
+
+if playing.lower() != "yes":
+    quit() #python quit function
+    
+print(" Okay! Let's play: ")
+score = 0
+
+answer = input("Who is Hootie? ")
+if answer.lower() == "a great dog":
+    print("Correct")
+    score += 1
+
+else: #this is condition for false
+    print("incorrect!")
+    
+# copy same code for next question and so forth
+
+answer = input("Who is Bob? ")
+if answer.lower() == "Marvin":
+    print("Correct!")
+    score += 1
+    
+else: #this is condition for false
+    print("incorrect!")
+    
+print("you got " + str(score) + " questions correct1")
