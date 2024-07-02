@@ -1,0 +1,24 @@
+# Write Python 3 code in this online editor and run it.
+print("Welcome to the Jazz Tracker!  Let's answer a few questions")
+
+def jazz_tracker():
+    input("Tell me your name? ")
+    input("Tell me your favorite genre ")
+    return
+
+
+artist_name = input("What's the artist name? ")
+instrument_name = input("What instrument does this artist play")
+favorite_album = input("What is your favorite album by this artist? ")
+jazz_tracker()  
+
+artist_name = True
+
+if instrument_name != ('Sax','Trumpet','Piano'):
+    print("Try Again, Not a Jazz Instrument")
+
+
+print(artist_name, "is your favorite aritst!")
+
+advice = "Don't take any wooden nickels. \nEat at Al's"
+print(advice)
