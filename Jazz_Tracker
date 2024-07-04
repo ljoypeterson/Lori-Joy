@@ -20,5 +20,5 @@ if instrument_name != ('Sax','Trumpet','Piano'):
 
 print(artist_name, "is your favorite aritst!")
 
-advice = "Don't take any wooden nickels. \nEat at Al's"
+advice = "Try listening to Bebop"
 print(advice)
