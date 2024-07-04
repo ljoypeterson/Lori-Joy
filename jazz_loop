@@ -1,0 +1,15 @@
+#while loop for jazz tracker
+user_demo = "\nEnter jazz musician name:"
+
+user_demo += "\nEnter 'quit' to end"
+
+
+message = 'user_demo'
+
+while message != 'quit':
+    message = input(user_demo)
+
+  
+        
+    if message == 'quit':
+        print('Goodbye')
