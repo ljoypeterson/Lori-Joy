@@ -1,0 +1,9 @@
+def jessie(mood):
+    
+    print(mood)
+    if mood == input("Name:"):
+        print()
+    else:
+        print("purr")
+    
+jessie('happy')
