@@ -1,0 +1,51 @@
+print("Welcome to the Jazz Tracker!  Let's answer a few questions")
+#CODE UPDATE JULY 4,2024
+
+
+# This is a function asking for input
+def jazz_tracker():
+
+    input("Tell me your name? ")
+    input("Tell me your favorite genre , type quit to exit")
+
+    return
+
+jazz_tracker()
+
+
+
+
+
+# this assigning variables for input from the user
+artist_name = input("What's the artist name? or quit ")
+instrument_name = input("What instrument does this artist play")
+favorite_album = input("What is your favorite album by this artist? ")
+
+
+def musician_information():
+    print(artist_name, instrument_name, favorite_album)
+
+
+
+while True:
+    x = artist_name
+    if 'quit' in x:
+        print("Goodbye")
+    break
+
+
+    
+
+
+ #this is an in statement to get the correct information
+
+
+
+if instrument_name != ('Sax','Trumpet','Piano'):
+    print("Try Again, Not a Jazz Instrument")
+
+
+print(artist_name, "is your favorite aritst!")
+
+advice = "Don't take any wooden nickels. \nEat at Al's"
+print(advice)
