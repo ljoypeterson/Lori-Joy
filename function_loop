@@ -1,3 +1,4 @@
+#example of calling a function and using an if else loop
 def jessie(mood):
     
     print(mood)
