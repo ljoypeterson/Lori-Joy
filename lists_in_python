@@ -1,0 +1,80 @@
+#prints out items in a list
+myList = ['banana', 'cherry', 'apple']
+print(myList)
+
+myList2 = [9, True, 'apple','apple']
+print(myList2)
+
+myList3 = [1, 5, 2, 7]
+
+item = myList[-1]
+print(item)
+
+for i in myList:
+    print(i)
+
+#tells if an item is in the list or not
+if 'cherry' in myList:
+    print("yes")
+else:
+    prin("no")
+
+#tells the number of items in list
+print(len(myList))
+
+#add an item to the list
+myList.append("lemom")
+print(myList)
+
+#insert item in list- count starts at 0
+myList.insert(1,"blueberry")
+print(myList)
+
+#take item out of list
+item = myList.pop()
+print(item)
+print(myList)
+
+#remove items from list
+item = myList.remove("cherry")
+print(myList)
+
+#clear items from list
+item = myList.clear()
+print(myList)
+
+item = myList.reverse()
+print(myList)
+
+myList3.sort()
+print(myList3)
+
+new_List = sorted(myList3)
+print(myList3)
+print(new_List)
+
+
+myList4 = [0] * 5
+print(myList4)
+
+myList5 = [1,2,3,4,5]
+newer_List = myList4 + myList5
+print(newer_List)
+
+#slicing a list
+myList6 = [1,2,3,4]
+a = myList6[::2]
+print(a)
+
+list_org = ['ban','app','org']
+list_cpy = list_org
+list_cpy.append('lemon')
+list_cpy = list_org.copy()
+print(list_cpy)
+print(list_org)
+print(list_cpy)
+
+myListA = [1,2,3,4,5]
+b = [i*i for i in myListA]
+print(myListA)
+print(b)
