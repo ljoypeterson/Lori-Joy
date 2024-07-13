@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .question {
+            margin-bottom: 10px;
+        }
+        .submit-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Simple Questionnaire</h2>
+    <form id="questionnaireForm">
+        <div class="question">
+            <label for="q1">Question 1: What is your name?</label><br>
+            <input type="text" id="q1" name="name">
+        </div>
+        <div class="question">
+            <label for="q2">Question 2: How old are you?</label><br>
+            <input type="number" id="q2" name="age">
+        </div>
+        <div class="question">
+            <label for="q3">Question 3: What is your favorite color?</label><br>
+            <input type="text" id="q3" name="color">
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</body>
+</html>
