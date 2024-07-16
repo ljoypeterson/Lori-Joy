@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <py-script>
+# Create two lambda functions for our questions
+question1 = lambda: input("What's the capital of France? ")
+question2 = lambda: input("How many legs does a spider have? ")
+
+# Ask the questions and check answers
+score = 0
+if question1().lower() == "paris":
+    score += 1
+    print("Correct!")
+else:
+    print("Wrong. The answer is Paris.")
+
+if question2() == "8":
+    score += 1
+    print("Correct!")
+else:
+    print("Wrong. The answer is 8.")
+
+# Show final score
+print(f"You got {score} out of 2 questions right!")
+    </py-script>
+</body>
+</html>
