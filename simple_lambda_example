@@ -1,0 +1,4 @@
+#lambda is a small undefined function
+can be used with in functions
+say_hi = lambda: "Hi"
+print(say_hi())
