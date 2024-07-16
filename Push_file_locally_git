@@ -1,0 +1,30 @@
+Pushing HTML to GitHub Pages Locally via CMD
+
+Install Git:
+If you haven't already, download and install Git from https://git-scm.com/
+Open Command Prompt:
+Press Win + R, type cmd, and press Enter.
+Navigate to your project folder:
+Copycd path\to\your\project\folder
+
+Initialize a Git repository (if not already done):
+Copygit init
+
+Create your HTML file:
+Create an index.html file in your project folder.
+Add the file to Git:
+Copygit add index.html
+
+Commit the changes:
+Copygit commit -m "Adding my homepage"
+
+Link to your GitHub repository:
+Copygit remote add origin https://github.com/yourusername/yourusername.github.io.git
+Replace yourusername with your actual GitHub username.
+Push to GitHub:
+Copygit push -u origin main
+Note: If you're using an older Git version, you might need to use master instead of main.
+Check your website:
+Open a browser and go to https://yourusername.github.io
+
+Remember to replace yourusername with your actual GitHub username throughout these steps.Last edited just nowPublish
